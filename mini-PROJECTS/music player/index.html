@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/d76215bb9c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="media/img4.webp" class="song-img">
+            <h1>Maroon Color Sadiya</h1>
+            <p>Nilkamal Singh Ft. Nirahua and Amarpali</p>
+
+           <audio id="song">
+            <source src="media/Maroon Color Sadiya Fasal 320 Kbps.mp3" type="audio/mp3">
+           </audio>
+           <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="palyPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></i></div>
+            </div>
+
+        </div>
+    </div>
+  <script src="script.js"></script>  
+</body>
+</html>

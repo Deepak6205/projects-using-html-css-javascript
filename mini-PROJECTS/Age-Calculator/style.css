@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(150deg,#d804eb, #0b00d8);
+    background: linear-gradient(150deg,#26012a, #052acc);
     color: #fff;
     padding: 10px;
 }
@@ -21,13 +21,13 @@
     font-size: 60px;
 }
 .calculator h1 span{
-    color: #ffea09;
+    color: #09ffc6;
 }
 .input-box{
    margin: 40px 0; 
    padding: 30px;
    border-radius: 10px;
-   background: rgba(255,255,255,0.3);
+   background: rgba(19, 1, 1, 0.3);
    display: flex;
    align-items: center;
 }
@@ -43,7 +43,7 @@
 
 }
 .input-box button{
-    background: #ffff76;
+    background: #02bfa0;
     border: 0;
     outline: 0;
     padding: 15px 30px;

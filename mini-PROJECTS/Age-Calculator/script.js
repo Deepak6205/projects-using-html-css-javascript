@@ -21,7 +21,7 @@ function calculateAge(){
         m3 = m2-m1;
     }else{
         y3--;
-        m3 = 12+y2-y1;
+        m3 = 12+m2-m1;
     }
     if(d2 >= d1){
         d3 = d2-d1;

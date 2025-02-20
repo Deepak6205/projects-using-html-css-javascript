@@ -55,6 +55,7 @@ button{
     margin-right: 1px;
     padding: 16px 50px;
     border-radius: 30px;
+    cursor: pointer;
 }
 ul li{
     list-style: none;
@@ -95,8 +96,10 @@ ul li span{
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
+    background: #d0bcea;
 }
 ul li span:hover{
-    background: #d0bcea;
+    background: #52011c;
+    color: #edeef0;
     
 }
